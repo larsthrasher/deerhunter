@@ -1,0 +1,487 @@
+.landingbody{
+	background-color:#0C0C0C;
+}
+
+h1{	
+	text-align:center;
+	position: absolute;
+	color: white;
+	font-size: 168pt;
+	font-family: 'Special Elite', cursive;
+	margin-top:-2px;
+	margin-bottom:-12px;
+	margin-left: 5px;
+}
+h1{
+	animation: wiggle .05s ease-in-out infinite;
+}
+
+@keyframes wiggle{
+	
+		0%{
+			font-size:168pt;
+		}
+		50%{
+			font-size:169pt;
+		}
+		100%{
+			font-size:168pt;
+		}
+	}
+		
+h3{
+	text-align:center;
+	font-family: 'Special Elite', cursive;
+	color:white;
+	padding-top:165px;
+}
+
+.frontphoto{
+	height:100%;
+	width: 100%;
+	margin-top:-400px;
+}
+
+a{
+	text-decoration:none;
+	color: white;
+}
+
+.drctry{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr;
+	grid-gap: 2px 2px;
+	height:175vh;
+	width:100vw;
+}
+
+
+.history {
+	grid-column:1/2;
+	grid-row:1/2;
+	background-image:url("../images/band2.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+	
+}
+
+.history p{
+	padding-top: 300px;
+}
+
+.history:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#slideDiv{
+
+}
+
+.crypto {
+	grid-column: 2/3;
+	grid-row:1/2;
+	background-image:url("../images/cryptograms.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family:'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+
+.crypto p{
+	padding-top: 300px;
+}
+
+.crypto:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerCrypto:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+
+.micro{
+	grid-column: 1/2;
+	grid-row:2/3;
+	background-image:url("../images/microcastle.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+
+.micro p{
+	padding-top: 300px;
+}
+
+.micro:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerMicro:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+.halcyon{
+	grid-column:2/3;
+	grid-row:2/3;
+	background-image:url("../images/halcyondigest.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+
+.halcyon p{
+	padding-top: 300px;
+}
+
+.halcyon:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerHalcyon:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+
+.mono{
+	grid-column:1/2;
+	grid-row:3/4;
+	background-image:url("../images/monomania.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+
+.mono p{
+	padding-top: 300px;
+}
+
+.mono:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerMono:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+.fading{
+	grid-column:2/3;
+	grid-row:3/4;
+	background-image:url("../images/fadingfrontier.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+
+.fading p{
+	padding-top: 300px;
+}
+
+.fading:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerFade:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+.whyhasnt{
+	grid-column:1/2;
+	grid-row:4/5;
+	background-image:url("../images/whyhasnteverything.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;
+}
+
+.whyhasnt p{
+	padding-top: 300px;
+}
+
+.whyhasnt:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerDis:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+.tour{
+	grid-column:2/3;
+	grid-row:4/5;
+	background-image:url("../images/tour.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+	font-size:15pt;
+	text-align:center;
+	text-shadow: 2px 2px black;	
+}
+
+.tour p{
+	padding-top: 300px;
+}
+
+.tour:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+#videoContainerTour:hover{
+	cursor:hand;
+	cursor:pointer;
+	opacity:.5;
+}
+
+.slideDiv{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+.buttonDiv{
+	display:flex;
+	justify-content: center;
+}
+
+button{
+	font-family:'Permanent Marker', cursive;
+	margin: 15px;
+}
+
+#expo{
+	background-color:#000000;
+}
+
+
+.cgram{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#cgram{
+	background-color:#DF046A;
+}
+
+h2{
+	color:white;
+	text-align:center;
+	font-family: 'Special Elite', cursive;
+	font-size:30pt;
+	padding-top:20px;
+}
+
+
+.mike{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#mike{
+	background-color: #EE513E;
+}
+
+.hal{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#hal{
+	background-color:#050505;
+}
+
+.mon{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#mon{
+	background-color:#000000;
+}
+
+.fade{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#fade{
+	background-color:#01070A;
+}
+
+.dis{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#dis{
+	background-color:#4B3537;
+}
+
+.tour2{
+	display:flex;
+	justify-content: center;
+	margin-top:100px;
+}
+
+#tour2{
+	background-color:black;
+}
+
+ul{
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	list-style:none;
+	text-align: center;
+	line-height: 3;
+	font-size:30pt;
+	padding-top:150px;
+	text-shadow:2px 2px grey;
+}
+
+article{
+	padding:150px;
+	font-family:'Special Elite', cursive;
+	color:white;
+	font-size:15pt;
+	line-height:2;
+
+}
+
+nav{
+	padding-top:250px;
+	display:flex;	
+	justify-content:space-around;
+	font-size:30pt;
+	font-family:'Special Elite', cursive;
+	color:white;
+
+}
+
+#techschool{
+	display:none;
+}
+
+ .popup {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #F1F1F1;
+            background-color: rgba(0,0,0,0.4);
+            animation-name: fadeIn;
+            animation-duration: 0.4s
+         }
+         .popup-content {
+            position: fixed;
+            bottom: 0;
+            background-color: #ffffff;
+            width: 100%;
+            animation-name: slideIn;
+            animation-duration: 0.5s
+         }
+         .end {
+            color: white;
+            float: right;
+            font-size: 15px;
+            font-weight: bold;
+         }
+         .end:hover,
+         .end:focus {
+            color: #000;
+            text-decoration: underline;
+            cursor: pointer;
+         }
+         .popup-header {
+            padding: 1px 10px;
+            background-color: #82283b;
+            color: white;
+         }
+
+        #btn{
+        display: flex;
+        justify-content:center;
+        margin:125px;
+        }
+
+        #btn img:hover{
+		cursor:hand;
+		cursor:pointer;
+		opacity:.5;
+	}
+	#exitbody{
+		background-image:url("../images/cryptograms.jpg");
+		background-size: 10%;
+	}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>exit</title>
+     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="../css/main.css">
+   </head>
+   <body id="exitbody">
+      <div id="btn">
+         <img src="../images/cryptograms.jpg" width="400px" height="400px">
+      </div>
+      <div id="modal" class="popup">
+         <!-- modal content -->
+         <div class="popup-content">
+            <div class="popup-header">
+               <span class="end">×</span>
+               <h2>Thank You!</h2>
+      </div>
+     <script>
+      //Accessing individual nodes of document.
+         var popup = document.getElementById('modal');
+         var buttonn = document.getElementById("btn");
+         var span = document.getElementsByClassName("end")[0];
+        //function to show bar
+         buttonn.onclick = function() {
+            popup.style.display = "block";
+         }
+         //function to hide bar.
+         span.onclick = function() {
+            popup.style.display = "none";
+         }
+        
+         window.onclick = function(event) {
+            if (event.target == popup) {
+               popup.style.display = "none";
+            }
+         }
+
+     </script>
+   </body>
+</html>
